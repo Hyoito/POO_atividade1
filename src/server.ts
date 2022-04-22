@@ -3,29 +3,29 @@ import { setUncaughtExceptionCaptureCallback } from "process";
 const prompt = require("prompt-sync")();
 
 // 1 questão
-let nota1 = prompt("Informe a nota do trabalho de laboratorio: ");
-let nota2 = prompt("Informe a nota da avaliação semestral: ");
-let nota3 = prompt("Informe a nota do exame final: ");
+// let nota1 = prompt("Informe a nota do trabalho de laboratorio: ");
+// let nota2 = prompt("Informe a nota da avaliação semestral: ");
+// let nota3 = prompt("Informe a nota do exame final: ");
 
-let peso1 = Number(nota1) * 2;
-let peso2 = Number(nota2) * 3;
-let peso3 = Number(nota3) * 5;
+// let peso1 = Number(nota1) * 2;
+// let peso2 = Number(nota2) * 3;
+// let peso3 = Number(nota3) * 5;
 
-let media = peso1 + peso2 + peso3 / 3;
+// let media = peso1 + peso2 + peso3 / 3;
 
-console.log(`Media ${media}`);
+// console.log(`Media ${media}`);
 
-if (media >= 8){
-    console.log(`Conceito A`)
-}else if (media >= 7){
-    console.log(`Conceito B`)
-}else if (media >= 6){
-    console.log(`Conceito C`)
-}else if (media >=5){
-    console.log(`Conceito D`)
-}else{
-    console.log(`Conceito E`)
-}
+// if (media >= 8){
+//     console.log(`Conceito A`)
+// }else if (media >= 7){
+//     console.log(`Conceito B`)
+// }else if (media >= 6){
+//     console.log(`Conceito C`)
+// }else if (media >=5){
+//     console.log(`Conceito D`)
+// }else{
+//     console.log(`Conceito E`)
+// }
 
 // 2 questão
 // let numero = new Array(3)
